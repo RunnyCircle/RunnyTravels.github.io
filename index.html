@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Runny Circle | Atharva</title>
+
+    <!--header files required for nav bar and other UI components-->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="main.css" <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</head>
+
+<body background="1058.png">
+    <table border="0" style="width: 100%; margin-top: 0px;">
+        <tr bgcolor="brown">
+            <td width="95%">
+                <h1
+                    style="color: gold;background-color: brown;text-align: center;height: 100px;padding-top: 40px; margin-bottom: 0px;">
+                    Please Subscribe to Runny Circle</h1>
+            </td>
+
+            <td>
+                <div class="carousel-item active">
+                    <a href="C:/Users/Atharva/OneDrive/Desktop/Web%20Dev%20101/About%20Me.html">
+                        <img src="logo.png" file: width="100px" height="100px" /></a>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <!--Build responsive nav bar here-->
+    <!-- Build responsive nav bar here -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: blue;">
+        <a class="navbar-brand"
+            href="https://www.viator.com/Dubai-tourism/d828-r2068226142-s42124283?mcid=33953&tsem=true&supci=-1128325033&supag=2068226142&supsc=kwd-77515637698870&supai=77515707106196&supdv=c&supnt=o&supkw=burj%20khalifa&supti=kwd-77515637698870&suplp=164&supli=154645&m=33953&supag=2068226142&supsc=kwd-77515637698870&supai=77515707106196&supdv=c&supnt=nt:o&suplp=164&supli=154645&supti=kwd-77515637698870&tsem=true&supci=kwd-77515637698870&supkw=burj%20khalifa&msclkid=6ed1969cffeb1712d751f337486a7866"
+            style="color: aliceblue;"> Dubai Tourism | </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Include collapsible panel here -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.visitdubai.com/en/places-to-visit/burj-khalifa"
+                        style="color: aliceblue;"> Places to Visit | </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.burjkhalifa.ae/en/" style="color: aliceblue;"> Tickets | </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.dubaitravelguide.info/dining-in-the-burj-khalifa/"
+                        style="color: aliceblue;"> Dubai Food | </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Build Carousel Here -->
+    <div class="row" style="width: 60%; margin: auto; margin-top: 50px;">
+        <div class="col-md-12">
+            <div class="carousel slide" id="CarouselIndicators" data-ride="carousel" data-interval="2750">
+
+                <!--indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#CarouselIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#CarouselIndicators" data-slide-to="1"></li>
+                    <li data-target="#CarouselIndicators" data-slide-to="2"></li>
+                </ol>
+
+                <!--contents-->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="building.jpg" width="100%" height="500px">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="lobby.jpg" width="100%" height="500px">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="swimming pool.jpg" width="100%" height="500px">
+                    </div>
+                </div>
+
+                <!--Controls-->
+                <a class="carousel-control-prev" href="#CarouselIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+
+                <a class="carousel-control-next" href="#CarouselIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="profile">
+        <header class="pulsating-text"> Keep Visiting for More Tourist Destinations! </header>
+    </div>
+
+    <div class="profile" style="width: 560px;">
+        <header class="text-translate">
+            2024 Burj Khalifa
+        </header>
+    </div>
+    <iframe style="margin: auto; display: block;" width="560" height="315"
+        src="https://www.youtube.com/embed/jmg0y4XMMSc?si=PnUhUYsGi4BrBXCn" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+    <div class="container">
+        <div class="text"></div>
+    </div>
+
+    <div class="wrapper" style="width: 75%; margin: auto; margin-top: 100px;">
+        <div class="sidebar-left">
+            <header> Skip the Line Burj Khalifa Ticket - At the Top Sky 124, 125 & 148 </header>
+            <img src="24.jpg">
+            <a href="https://www.viator.com/tours/Dubai/Burj-Khalifa-At-the-Top-Sky-Level-124-125-and-148/d828-2168P100"
+                class="button"> Buy Tichets Now! </a>
+        </div>
+        <div class="mid-section">
+            <table>
+                <tr>
+                    <td> 30 interesting Facts About Burj Khalifa </td>
+                    <td> <a href="https://www.thecrowdedplanet.com/burj-khalifa-facts/"> Click Here </a> </td>
+                </tr>
+
+                <tr>
+                    <td> The Inspiring Story Behind Burj Khalifa </td>
+                    <td> <a href="https://www.burjkhalifa.ae/en/the-stories.aspx"> Click Here </a> </td>
+                </tr>
+
+                <tr>
+                    <td> Colomn 1 </td>
+                    <td> Column 2 </td>
+                </tr>
+
+                <tr>
+                    <td> Colomn 1 </td>
+                    <td> Column 2 </td>
+                </tr>
+
+            </table>
+        </div>
+        <div class="sidebar-right"></div>
+    </div>
+
+    
+    <div class="footer">
+        <p> Created by ATHARVA &copy; 2024</p>
+        <p> Hosted on Github</p>
+        <p> Contact Information: atharvosmi@gmail.com </p>
+    </div>
+
+
+</body>
+
+</html>
